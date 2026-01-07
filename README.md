@@ -37,6 +37,23 @@ ollama pull mistral
 OPENAI_API_KEY=votre_cle_api_ici
 ```
 
+## Structure du projet
+
+```
+rag-boardgame-assistant/
+├── data/                    # Fichiers de règles de jeux (.txt, .pdf)
+│   ├── jeu_fictif_test.txt
+│   └── regles_echecs.pdf
+├── storage/                 # Stockage des index vectoriels (généré automatiquement)
+├── starter_openai.py        # Script de démarrage avec OpenAI
+├── starter_mistral.py       # Script de démarrage avec Mistral
+├── requirements.txt         # Dépendances Python
+├── README.md
+└── .env                     # Clé API OpenAI (à créer)
+```
+
+Vous pouvez ajouter de nouvelles règles au RAG en les placant dans le dossier "data".
+
 ## Lancement des chatbot en console
 
 Avec le LLM OpenAI gpt-4o-mini en version gratuite - meilleures réponses et rapidité mais nécessite un compte openAI

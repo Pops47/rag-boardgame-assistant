@@ -39,7 +39,7 @@ OPENAI_API_KEY=votre_cle_api_ici
 
 ## Lancement des chatbot en console
 
-Avec le LLM OpenAI gpt4-o-mini en version gratuite - meilleures réponses et rapidité mais nécessite un compte openAI
+Avec le LLM OpenAI gpt-4o-mini en version gratuite - meilleures réponses et rapidité mais nécessite un compte openAI
 
 ```bash
 python starter_openai.py
@@ -56,7 +56,7 @@ Exemples de questions pour tester le RAG :
 - Salut ça va ?
 - Combien y a t-il de pions aux dames ?
 - Quel est le but du jeu de BiduleChouette (jeu fictif présent dans les documents du RAG) => ne doit pas inventer de réponse mais donner le but du jeu fictif présent dans test.txt.
-- Quel temps fait-il aujourdh'ui ? => doit rediriger vers le jeu
+- Quel temps fait-il aujourd'hui ? => doit rediriger vers le jeu
 
 A faire / autres idées :
 

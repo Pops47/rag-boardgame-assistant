@@ -1,0 +1,7 @@
+fastapi[standard]==0.113.0
+# packages llama index
+llama-index-core==0.14.12
+llama-index-readers-file==0.5.6
+llama_index.llms.ollama==0.9.1
+llama-index-embeddings-huggingface==0.6.1
+llama_index.llms.openai

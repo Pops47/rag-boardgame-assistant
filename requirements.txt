@@ -4,3 +4,6 @@ llama-index-readers-file
 llama-index-llms-openai
 llama-index-llms-ollama
 llama-index-embeddings-huggingface
+# rétrogradation de numpy pour des problèmes de compatibilité avec les packages llama index
+numpy<2
+python-dotenv

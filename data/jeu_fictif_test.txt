@@ -5,7 +5,7 @@ But du jeu : Obtenir le plus de pions Bidule tout en gardant un maximum de carte
 Règles du jeu : 
 
 - Il est interdit de relancer le dé plus de 2 fois
-- Les cartes Chouette rouges valent -3 pionts
-- Les cartes Chouette multicolores valent + 2 points
+- Les cartes Chouette rouges valent -3 points
+- Les cartes Chouette multicolores valent +2 points
 
 Installation : Distribuer 5 pions et 10 cartes à chaque joueur face cachée. Le plus jeune joueur commence.
